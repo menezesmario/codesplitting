@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'react-lottie';
-import * as loading from './Loading';
+import * as loading from './loading.json';
 
 const defaultOptions = {
     loop:true,
@@ -14,7 +14,7 @@ const defaultOptions = {
 
 const Loading = () => {
     return (
-        <div style={{marginTop: '10rem'}}>
+        <div>
             <Lottie options={defaultOptions} height={120} width={120}/>
         </div>
     )
